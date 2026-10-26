@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PrintPal – Print shop for students</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav>
+<a class="logo" href="#top">Print<span>Pal</span></a>
+<div><a class="l" href="#services">Services</a><a class="l" href="#how">How it works</a><a class="l" href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero" id="top">
+<div>
+<h1>Your notes, reviewers, and thesis, <mark>printed fast.</mark></h1>
+<p>PrintPal is the neighborhood print shop built around student deadlines. Send your file, pick your size and binding, and pick it up the same day.</p>
+<a class="btn" href="#contact">Send your file</a>
+</div>
+
+<div class="sheet" aria-labelledby="calc-h">
+<h2 id="calc-h">Quick price check</h2>
+<div class="row">
+<div><label for="color">Print type</label>
+<select id="color"><option value="3">Black &amp; white</option><option value="10">Full color</option></select></div>
+<div><label for="size">Paper size</label>
+<select id="size"><option value="1">Short (8.5×11)</option><option value="1">A4</option><option value="1.2">Legal (8.5×13)</option></select></div>
+</div>
+<div class="row">
+<div><label for="pages">Pages</label><input id="pages" type="number" min="1" value="20"></div>
+<div><label for="copies">Copies</label><input id="copies" type="number" min="1" value="1"></div>
+</div>
+<label for="bind">Finishing</label>
+<select id="bind"><option value="0">None</option><option value="5">Stapled</option><option value="35">Spiral bound</option><option value="180">Hardbound (thesis)</option></select>
+<div class="total"><div><small>Estimated total</small><b id="out">₱0</b></div><small id="per" style="text-align:right"></small></div>
+</div>
+</header>
+
+<section id="services">
+<h2 class="t">What we print</h2>
+<div class="svc">
+<article><h3>Notes &amp; reviewers</h3><p>Lecture slides, module packets, and exam reviewers. Double-sided to save paper and money.</p><span class="p">from ₱3 / page</span></article>
+<article><h3>Thesis &amp; binding</h3><p>Clean layouts, spiral or hardbound covers with gold lettering, ready for defense day.</p><span class="p">from ₱35 / copy</span></article>
+<article><h3>Posters &amp; IDs</h3><p>Posters, tarpaulins, lamination, and ID cards for projects and school events.</p><span class="p">ask for a quote</span></article>
+</div>
+</section>
+
+<section id="how">
+<h2 class="t">How it works</h2>
+<ol class="steps">
+<li><b>Send your file</b><span>PDF or Word, by email or chat.</span></li>
+<li><b>Get a quote</b><span>We confirm pages, size, and total.</span></li>
+<li><b>We print</b><span>Most orders are done in under an hour.</span></li>
+<li><b>Pick up</b><span>Pay at the counter and go.</span></li>
+</ol>
+</section>
+
+<section id="contact">
+<div class="contact">
+<div><h2>Deadline tomorrow? Send it now.</h2><p>Prices shown are sample rates. Replace them with your shop’s real prices and contact details.</p></div>
+<div><a class="btn" href="mailto:hello@printpal.example">hello@printpal.example</a><p>Open daily, 8 AM to 8 PM</p></div>
+</div>
+</section>
+<footer>© 2026 PrintPal. Made for students.</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
